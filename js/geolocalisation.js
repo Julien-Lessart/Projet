@@ -58,7 +58,7 @@ $(document).ready(function() { // Pour charger le Jquery au chargement de la pag
         // On s'occupe de l'url
         adresse = $("#Adresse").val();
         codePostal = $("#CodePostal").val();
-        urlrequest = "http://ou.comarquage.fr/api/v1/geocode?postal_code=" + codePostal.toString() + "&street_address=" + adresse.toString();
+        urlrequest = "https://ou.comarquage.fr/api/v1/geocode?postal_code=" + codePostal.toString() + "&street_address=" + adresse.toString();
 
 
         // Test si on a une adresse et un code postal en mémoire
