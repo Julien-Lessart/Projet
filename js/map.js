@@ -31,7 +31,7 @@ function initMap(latitude, longitude, polygone, verif) {
         }).addTo(carte); // On l'ajoute a la carte
 
     // Pour le layer
-    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    L.tileLayer('https://a.tile.openstreetmap.org/{z}/{x}/{y}.png', {
         attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
     }).addTo(carte); // On l'ajoute a la carte
 
